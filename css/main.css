@@ -1,0 +1,518 @@
+@font-face {
+    font-display: swap; 
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/philosopher-v20-latin-regular.woff2') format('woff2'); 
+  }
+  @font-face {
+    font-display: swap; 
+    font-family: 'Philosopher';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/philosopher-v20-latin-700.woff2') format('woff2'); 
+  }
+
+ *{
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    text-decoration: none;
+}
+/* Header start */
+.container {
+    width: 1200px;
+}
+:root{
+    --clr-orange:#DC780B;
+}
+.site-logo{
+    vertical-align: middle;
+}
+.site-header {
+    margin-bottom:0;
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    padding: 30px 0 16px ;
+    top: 0;
+}
+.navbar {
+    display: inline-block;
+    vertical-align: middle;
+}
+.navbar-item {
+    display: inline-block;
+    margin-left: 0;
+    margin-right: 40px;
+}
+.header-contact-btn {
+    width: 155px;
+    padding: 13px 0 ;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    border: 2px solid;
+    border-radius: 5px;
+    margin-left: 458px;
+    text-align: center;
+    color: white;
+    background-color: var(--clr-orange);
+    transition: all 0.3s ease;
+}
+.header-contact-btn:hover{
+    color:var(--clr-orange);
+    border-color:var(--clr-orange);
+    background-color: transparent;
+}
+.navbar-link{
+    margin-left: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    color :#150C01;
+}
+.head{
+    margin: 0;
+    opacity: 60%;
+}
+.navbar-link:hover{
+    transition: all 0.3s;
+    color: var(--clr-orange);
+}
+.active{
+    color: var(--clr-orange);
+}
+.active:hover{
+    opacity: 60%;
+    transition: all 0.3s;
+    color: #150C01;
+}
+/* Header end */
+
+/* Hero section start */
+.hero-section {
+    margin-top: 16px;
+}
+.hero-content-wrapper {
+    width:555px;
+    margin-left: 1px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.hero-title {
+    font-size: 48.83px;
+    font-weight: 700;
+    line-height: 57.6px;
+    margin-bottom: 42px;
+    color: #150C01;
+    font-family: "Philosopher" , sans-serif;
+}
+.hero-text {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #4d4d4d;
+}
+.order-btn {
+    width:158px;
+    padding: 21px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: var(--clr-orange);
+    color: white;
+    border: 3px solid;
+    text-align: center;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+.details-btn {
+    width:158px;
+    padding: 21px 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    margin-top: 50px;
+    margin-left:30px;
+    border-radius: 5px;
+    color:var(--clr-orange);
+    border:0.5px solid;
+    text-align: center;
+    vertical-align: middle;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+.order-btn:hover{
+    color: var(--clr-orange);
+    background-color: transparent;
+    border-color: var(--clr-orange);
+}
+.details-btn:hover{
+    border-color: transparent;
+    color: white;
+    background-color: var(--clr-orange);
+}
+.hero-img {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:9px;
+}
+/* Hero section end*/
+
+/* Possion section start */
+
+.possion-section{
+    margin-bottom:120px;
+}
+.passion-text-p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 18.75px;
+    text-align: center;
+    color: var(--clr-orange);
+}
+.service-title {
+    margin-top: 9px;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 35px;
+    margin-bottom: 55px;
+    color: black; 
+    text-align: center;
+    vertical-align: middle;
+    font-family:"Philosopher" , sans-serif;
+}
+.offering-item {
+    width: 33%;
+    margin-top: 44px;
+    margin-bottom: 120px;
+    text-align: center;
+    display: inline-block;
+}
+.services-count {
+    margin-top: 55px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;
+    display: block;
+    text-align: center;    
+    font-family:"Philosopher" , sans-serif;
+}
+.services-text{
+    color: #4d4d4d;
+    margin-top: 15px;
+}
+/* Passion Section end */
+
+/* About section start */
+.about-section{
+    margin-bottom: 60px;
+}
+.about-section-wrapper {
+    width: 450px;
+    margin-left: 98px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.about-strong {
+    margin-top: 10px;
+    color: var(--clr-orange)
+}
+.about-title {
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.63px;
+    color: black;
+    font-family: "Philosopher" , sans-serif;
+}
+.about-text {
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;  
+    color:#4d4d4d;
+}
+.about-btn {
+    margin-top: 20px;
+    width: 155px;
+    padding: 13px 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid;
+    text-align: center;
+    vertical-align: middle;
+    background-color: var(--clr-orange);
+    transition: all 0.3s ease;
+}
+.about-btn:hover{
+    color: var(--clr-orange);
+    background-color: transparent;
+    border-color: var(--clr-orange);
+}
+.about-img{
+    display: inline-block;
+    vertical-align: middle;
+}
+/* About section end */
+
+/* Full section start */
+.full-section{
+    margin-bottom: 60px;
+    margin-top: 115px;
+}
+.wron{
+    margin-top: 61px;
+}
+.full-item{
+    width: 366px;
+    height: 446px;
+    border-radius: 5px;
+    border: 1px solid #0000001A
+}
+.full-strong{
+    text-align: center;
+    color: var(--clr-orange);
+}
+.full-title{
+    margin-top: 10px;
+    font-weight: 700;
+    line-height: 24px;  
+    font-size: 31.25px;
+    text-align: center;
+    font-family: "Philosopher" , sans-serif;
+}
+.full-text{
+    margin-top: 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    color: #4d4d4d;
+}
+.full-list{
+    gap: 30px;
+    width: 32%;
+    margin-left: 0;
+    margin-top: 60px;
+    display: flex;
+}
+.full-count{
+    margin-left: 25px;
+    margin-top: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 24px;    
+    vertical-align: middle;
+    display: inline-block;
+    font-family:"Philosopher" , sans-serif;
+}
+.full-p-text{
+    margin-top: 20px;
+    padding: 0 25px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #4d4d4d;
+}
+.star{
+    margin-left: 200px;
+    cursor: pointer;
+}
+.plus-btn{
+    width: 36px;
+    height: 34px;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    color: white;
+    background-color: var(--clr-orange);
+    border-color: transparent;
+    transition: all 0.3s;
+}
+.plus-btn:hover{
+    background-color: transparent;
+    color: var(--clr-orange);
+    border-color: var(--clr-orange);
+}
+/* Full section end */
+
+/* Product section start */
+.product-section {
+    margin-bottom: 120px;
+}
+.product-conteent-wrapper {
+    display: inline-block;
+    vertical-align: middle;
+}
+.product-strong {
+    color: var(--clr-orange);
+}
+.product-title {
+    margin-top: 5px;
+    color: black;
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.63px;   
+    font-family:"Philosopher" , sans-serif;
+}
+.product-text {
+    color: #4d4d4d;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;    
+    margin-top: 30px;
+}
+.smart-class{
+    margin-top: 40px;
+}
+.google{
+margin-left: 40px;
+}
+.iPhone-img{
+    vertical-align: middle;
+    margin-left: 350px;
+}
+/* Product section end*/
+
+/* Great section strat */
+.great-section {
+    margin-left: 150px;
+    margin-bottom: 80px;
+    display: inline-block;
+    text-align: center;
+}
+.great-content-wrapper {
+    text-align: center;
+}
+.great-section-start {
+    color: var(--clr-orange);
+}
+.great-title {
+    margin-top: 12px;
+    font-size: 31.25px;
+    font-weight: 800;
+    line-height: 24px; 
+    color: black;   
+    font-family: "Philosopher" , sans-serif;
+}
+.great-text {
+    margin-top: 24px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color:#4d4d4d;
+    text-align: center;    
+}
+.great-img {
+    margin-top: 73px;
+}
+.great-text-only {
+    margin-top: 42px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;    
+}
+.great-star {
+    margin-top: 20px;
+    cursor:pointer;
+}
+.naime {
+    margin-top: 32px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18.75px;    
+    font-family: "Roboto" , sans-serif;
+}
+.designer {
+    color: #4d4d4d;
+    margin-top: 8px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;    
+}
+/* Great section end*/
+ 
+/* Contackt section start */
+.contact-section {
+    height: 450px;
+    background-color:#fcf2e7;
+    vertical-align: middle;
+}
+.contact-hero-wrapper {
+}
+.contact-section-start {
+    padding: 0;
+    margin-bottom: 115px;
+    text-align: center;
+    color:var(--clr-orange);
+}
+.contackt-title {
+    font-size: 31.25px;
+    font-weight: 700;
+    line-height: 40.6px;
+    text-align: center;  
+    font-family: "Philosopher" , sans-serif;
+}
+.form {
+    display: flex;
+    width: 750px;
+    vertical-align: middle;
+    height: 75px;
+}
+.form_input {
+    margin-top: 46px;
+    height: 10px;
+    width: 594px;
+    padding: 32px;
+    background-color:#FFFFFF;
+    border: 1px solid #DEDEDE;
+    border-radius:10px;
+    margin: 46px auto;
+    vertical-align: middle;
+    display:flex;
+    border-radius: 5px;
+}
+.form-btn {
+    width: 156px;
+    height: 75px;
+    color: white;
+    margin-top: 46px;
+    border-radius: 5px;
+    border: 1px solid;
+    vertical-align: middle;
+    text-align: center;
+    background-color: var(--clr-orange);
+    transition: all 0.3s;
+}
+.form-btn:hover{
+    background-color: transparent;
+    color: var(--clr-orange);
+    border-color: var(--clr-orange);
+}
+/* Contackt section end */
+
+/* Footer section start */
+.footer-tr{
+gap: 40px;
+}
+.footer-section{
+    background-color: black;
+    display: flex;
+}
+.table-heading{
+    color: white;
+    gap: 130px;
+    font-family: "Philosopher" , sans-serif;
+}
+.table-body{
+    gap: 130px;
+}
+/* Footer section start */
+
